@@ -206,7 +206,7 @@
                                 class="block font-medium text-sm text-gray-700 dark:text-gray-700 mb-2">Enter API
                                 Name</label>
                             <input type="text"
-                                class="bg-stone-50 dark:bg-stone-50 border-gray-300 dark:border-gray-300 dark:bg-stone-50 dark:text-gray-700 focus:border-indigo-500 dark:focus:border-indigo-600 focus:ring-indigo-500 dark:focus:ring-indigo-600 rounded-md shadow-sm form-control"
+                                class="bg-stone-50 dark:bg-stone-50 border-gray-300 dark:border-gray-300  dark:text-gray-700 focus:border-indigo-500 dark:focus:border-indigo-600 focus:ring-indigo-500 dark:focus:ring-indigo-600 rounded-md shadow-sm form-control"
                                 id="apikeyname" name="apikeyname">
                             <span class="error-message"></span>
                         </div>
@@ -247,7 +247,7 @@
                             class="block font-medium text-sm text-gray-700 dark:text-gray-700 mb-2">Copy API
                             Key</label>
                         <input type="text"
-                            class="bg-stone-50 dark:bg-stone-50 border-gray-300 dark:border-gray-300 dark:bg-stone-50 dark:text-gray-700 focus:border-indigo-500 dark:focus:border-indigo-600 focus:ring-indigo-500 dark:focus:ring-indigo-600 rounded-md shadow-sm form-control"
+                            class="bg-stone-50 dark:bg-stone-50 border-gray-300 dark:border-gray-300 dark:text-gray-700 focus:border-indigo-500 dark:focus:border-indigo-600 focus:ring-indigo-500 dark:focus:ring-indigo-600 rounded-md shadow-sm form-control"
                             id="copyApiKey" name="copyApiKey">
                     </div>
                 </div>
