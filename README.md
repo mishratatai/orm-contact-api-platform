@@ -4,6 +4,10 @@
 
 An open-source platform for streamlined contact form management that allows you to store and manage submissions from multiple forms in one place. 
 
+## Key Features
+* Store, manage, and analyze submissions from multiple forms in one place.
+* Open-source and MIT licensed
+
 ## ORMRooms Sponsors
 
 We're grateful for the support of our sponsors. Currently, we have no sponsors. If your organization would like to support ORMRooms, please contact us [info@ormrooms.com](mailto:info@ormrooms.com).
@@ -11,10 +15,6 @@ We're grateful for the support of our sponsors. Currently, we have no sponsors. 
 ## Contributing
 
 Thank you for considering contributing to The ORM Contact Api!
-
-## Code of Conduct
-
-
 
 ## Security Vulnerabilities
 
