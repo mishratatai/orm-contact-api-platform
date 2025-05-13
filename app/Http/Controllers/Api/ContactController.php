@@ -26,6 +26,7 @@ class ContactController extends Controller
     {
         
         $contact = Validator::make($request->all() ,[
+            'email'                   => 'required|email|max:255',
             'contact_data_source'     => 'required|string|max:255',
             'contact_data_name'       => 'required|string|max:255',
             'contact_data_email'      => 'required|email|max:255',
