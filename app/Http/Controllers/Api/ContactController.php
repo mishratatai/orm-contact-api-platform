@@ -26,12 +26,11 @@ class ContactController extends Controller
     {
         
         $contact = Validator::make($request->all() ,[
-            'email'                   => 'required|email|max:255',
             'contact_data_source'     => 'required|string|max:255',
             'contact_data_name'       => 'required|string|max:255',
             'contact_data_email'      => 'required|email|max:255',
-            'contact_data_phone_no'   => 'required|integer',
-            'contact_data_desc'       => 'required|string',
+            'contact_data_phone_no'   => 'nullable|integer',
+            'contact_data_desc'       => 'nullable|string',
             'ip_address'              => 'nullable|string'
         ]);
 

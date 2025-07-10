@@ -216,7 +216,7 @@
     function updateStatus(id) {
         $.ajax({
             type: "POST",
-            url: "{{ route('updateContactStatus', '') }}" + "/" + id,
+            url: "{{ route('updateContactStatus', ['id' => ':id']) }}".replace(':id', id),
             data: {
                 _token: "{{ csrf_token() }}",
             },
@@ -242,7 +242,7 @@
     function updateStage(id) {
         $.ajax({
             type: "POST",
-            url: "{{ route('updateStage', '') }}" + "/" + id,
+            url: "{{ route('updateStage', ['id' => ':id']) }}".replace(':id', id),
             data: {
                 _token: "{{ csrf_token() }}",
             },
@@ -269,7 +269,7 @@
         console.log(id);
         $.ajax({
             type: "GET",
-            url: "{{ route('previewContact', '') }}" + "/" + id,
+            url: "{{ route('previewContact', ['id' => ':id']) }}".replace(':id', id),
             success: function (response) {
                 console.log(response);
                 if (response.status == "success") {

@@ -111,7 +111,6 @@
 
         $curl = curl_init();
             $postData = [
-                "email"                   => "info@abc.com", /* Authorized email */
                 "contact_data_source"     => "Application Name",
                 "contact_data_name"       => $_POST['contact_data_name'],
                 "contact_data_email"      => $_POST['contact_data_email'],
